@@ -35,13 +35,12 @@ if (!fs.existsSync(uploadsDir)) {
   console.log('Created uploads directory.');
 }
 
-
 const allowedOrigins = [
   "http://localhost:5173",
   "http://127.0.0.1:5173",
   process.env.FRONTEND_URL || "http://192.168.203.44:5173",
-  // ADD YOUR VERCEL URL HERE TO THE ALLOWED ORIGINS
-  "https://cabrde-3n4zfj5jg-nadiyanpulkit06-3110s.projects.vercel.app"
+  // Your deployed frontend URL needs to be here
+  "https://cabride-monorepo-1.onrender.com"
 ];
 
 // --- Middleware ---
