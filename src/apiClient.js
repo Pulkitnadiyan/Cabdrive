@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Update the API_BASE to point to your deployed backend URL
-const API_BASE = "https://your-backend-url.vercel.app"; // Replace with your actual backend URL
+const API_BASE = "https://cabride-backend.onrender.com/"; // Replace with your actual backend URL
 
 const api = axios.create({
   baseURL: API_BASE,
